@@ -1,7 +1,10 @@
+import { Layout } from '../components/layouts';
+
 export default function Home() {
   return (
-    <>
-      <h1>Cookie Master</h1>
-    </>
+    <Layout>
+      <h1>Cookie Master - Index</h1>
+
+    </Layout>
   )
 }
